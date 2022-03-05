@@ -1,0 +1,20 @@
+main{
+    display: flex;
+    
+}
+aside{
+    background-color: violet;
+    width: 200px;
+    
+}
+article{
+    background-color: brown;
+    width: 1200px;
+    height: 600px;
+    
+}
+
+#frame1{
+    width: 1200px;
+    height: 600px;
+}

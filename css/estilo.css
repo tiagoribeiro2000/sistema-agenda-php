@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+header{
+
+    display: flex;
+  
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+
+}
+#title{
+    display: flex;
+}
+h1{
+    color: hsl(217, 78%, 51%);
+    font-size: xxx-large;
+    font-weight: 1000;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+   
+}
+
+input{
+    display: block;
+    height: 55px;
+    width: 350px;
+    margin: 10px;
+    /*border-radius: 30px;*/
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px ;
+}
+input[type=submit]{
+background-color: blueviolet;
+color: white;
+border: none;
+cursor: pointer;
+} 
+
+
+div#corpo-formulario{
+    /* background-color: blueviolet; */
+    width: 420px;
+    margin: 130px auto 0px auto;
+}
+
+div#msg-sucesso{
+width: 400px;
+margin: 10px auto;
+}
+
+div.msg-erro{
+width: 400px;
+margin: 10px auto;
+padding: 10px;
+}
+
+
+article{
+    width: 1000px;
+    display: flex;
+    justify-content: right;
+}
